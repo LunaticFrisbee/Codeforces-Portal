@@ -1,5 +1,5 @@
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-// ENTER Personal API Key and Secret to see Friends in Line No. 135 & 136
+// ENTER Personal API Key and Secret to see Friends in Line No. 145 & 146
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 let usernameVal;
@@ -142,8 +142,8 @@ const friends = async () => {
     "https://codeforces.com/api/user.friends?onlyOnline=true&apiKey=";
   const all_url =
     "https://codeforces.com/api/user.friends?onlyOnline=false&apiKey=";
-  const api_key = "338ec049881da5f975ad6e20f67311a79e383126"; ///!!!!!!!!!!!!!!!!ADD YOUR PERSONAL API-KEY HERE !!!!!!!!!!!!!!!!!!!!!##########################//
-  const api_secret = "f2bd120b64c3103a3b0ed907c18e1d6f5cfe2b77"; //!!!!!!!!!!!!!!!!! ADD YOUR PERSONAL SECRET HERE !!!!!!!!!!!!!!!!!!!!!##########################//
+  const api_key = ""; ///!!!!!!!!!!!!!!!!ADD YOUR PERSONAL API-KEY HERE !!!!!!!!!!!!!!!!!!!!!##########################//
+  const api_secret = ""; //!!!!!!!!!!!!!!!!! ADD YOUR PERSONAL SECRET HERE !!!!!!!!!!!!!!!!!!!!!##########################//
   const time = Math.floor(Date.now() / 1000);
   const on_tohash = `123456/user.friends?apiKey=${api_key}&onlyOnline=true&time=${time}#${api_secret}`;
   const all_tohash = `123456/user.friends?apiKey=${api_key}&onlyOnline=false&time=${time}#${api_secret}`;
