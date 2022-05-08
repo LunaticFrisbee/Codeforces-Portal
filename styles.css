@@ -33,6 +33,10 @@ body{
     margin-bottom: 35px;
 }
 
+#pic{
+    border-radius: 40%;
+}
+
 #online-friends {
     display: flex;
     flex-direction: column;
